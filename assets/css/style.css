@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+
+* {
+    font-family: 'Koulen', cursive;
+}
+
+body {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    /* adicionando imagem de fundo */
+    background: url('../img/istockphoto-1154873007-612x612.jpg');
+    background-size: cover;
+}
+
+.container {
+    width: 100vw;
+    height: 130vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center
+}
+
+.box {
+    width: 250px;
+    height: 440px;
+    border-radius: 5px;
+    background-color: rgb(43, 44, 44);
+    box-shadow: 10px 5px 5px rgb(77, 76, 76);
+}
+
+.result {
+    width: 240px;
+    height: 85px;
+    margin: 5px;
+    background-image: linear-gradient(180deg, rgb(57, 59, 59), rgb(91, 94, 94));
+    border-radius: 10px;
+}
+
+.content {
+    margin: 5px;
+    align-items: stretch;
+    align-content: space-around;
+    display: flex;
+    flex-wrap: nowrap;
+    max-width: 200;
+}
+
+button {
+    display: inline-block;
+    padding: 15px 25px;
+    cursor: pointer;
+    text-align: center;	
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #757975;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+  
+button:hover {background-color: #575757}
+  
+button:active {
+    background-color: #545554;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.display {
+    font-size: 30px;
+    color: white;
+    text-align: end;
+    margin-right: 10px;
+    margin-top: 10px;
+}
